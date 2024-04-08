@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>This My First Project</title>
+link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400&display=swap" rel="stylesheet">
+</head>
+    <style>
+        p {
+            font-family: Roboto, Arial;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .thumbnail{
+            width: 100%;
+        }
+        .thumbnail:hover {
+            cursor: pointer;
+        }
+
+        .vedio-info-grid {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+
+        
+        .vedio-title {
+            margin-top: 0;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 20px;
+            margin-bottom: 12px;
+        }
+        .vedio-title:hover {
+            cursor: pointer;
+        }
+
+        .profile-picture {
+            width: 100%;
+            border-radius: 50px;
+        }
+        .profile-picture:hover {
+            cursor: pointer;
+        }
+
+        .thumbnail-row {
+            margin-bottom: 12px;
+        }
+
+        .vedio-author,
+        .vedio-status {
+            font-size: 14px;
+            color: rgb(96, 96, 96);
+        
+        }
+
+        .vedio-author {
+            margin-bottom: 4px;    
+        }
+        .vedio-author:hover {
+            cursor: pointer;
+        }
+
+        .vedio-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 15px;
+            row-gap: 40px;
+            
+        }
+    
+    </style>
+
+<body>
+    <input class="search-bar" type="text" placeholder="search">
+    <div class="vedio-grid">
+        <div class="vedio-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./kamal.html/youtube-photos.jpg">
+            </div>
+            <div class="vedio-info-grid">
+                <div class="chanel-picture">
+                    <img class="profile-picture" src="./kamal.html/channel-1.jpg">
+                </div>
+                <div class="vedio-info">
+                    <p class="vedio-title">  
+                        Talking Tech and AI with Google CEO Sundar Pichai!
+                    </p>
+                    <p class="vedio-author">
+                        Marques Brownlee
+                    </p>
+                    <p class="vedio-status">
+                        3.4M views &#183; 6 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+            <div class="vedio-preview">
+                <div class="thumbnail-row">
+                <img class="thumbnail" src="./kamal.html/thumbnail-2.jpg">
+            </div>
+            <div class="vedio-info-grid">
+                <div class="chanel-picture">
+                    <img class="profile-picture" src="./kamal.html/channel-2.jpg">
+                </div>
+                <div class="vedio-info">
+                    <p class="vedio-title">      
+                        Try Not To Laugh Challenge #9
+                    </p>
+                    <p class="vedio-author">
+                        Markiplier
+                    </p>
+                    <p class="vedio-status">
+                        19M views · 4 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="vedio-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./kamal.html/thumbnail-3.jpg">
+            </div>
+            <div class="vedio-info-grid">
+                <div class="chanel-picture">
+                    <img class="profile-picture" src="./kamal.html/channel-3.jpg">
+                </div>
+                <div class="vedio-info">
+                    <p class="vedio-title">           
+                        Crazy Tik Toks Taken Moments Before DISASTER
+                    </p>
+                    <p class="vedio-author">
+                        SSSniperWolf
+                    </p>
+                    <p class="vedio-status">
+                        12M views · 1 year ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="vedio-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./kamal.html/thumbnail-4.jpg">
+            </div>
+            <div class="vedio-info-grid">
+                <div class="chanel-picture">
+                    <img class="profile-picture" src="./kamal.html/channel-4.jpg">
+                </div>
+                <div class="vedio-info">
+                    <p class="vedio-title">          
+                        The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                    </p>
+                    <p class="vedio-author">
+                        Veritasium
+                    </p>
+                    <p class="vedio-status">
+                        18M views · 4 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="vedio-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./kamal.html/thumbnail-5.jpg">
+            </div>
+            <div class="vedio-info-grid">
+                <div class="chanel-picture">
+                    <img class="profile-picture" src="./kamal.html/channel-5.jpg">
+                </div>
+                <div class="vedio-info">
+                    <p class="vedio-title">      
+                        Kadane's Algorithm to Maximum Sum Subarray Problem
+                    </p>
+                    <p class="vedio-author">
+                        CS Dojo
+                    </p>
+                    <p class="vedio-status">
+                        519K views · 5 years ago
+                    </p>
+                </div>    
+            </div>
+        </div>
+    
+        <div class="vedio-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./kamal.html/thumbnail-6.jpg">
+            </div>
+            <div class="vedio-info-grid">
+                <div class="chanel-picture">
+                    <img class="profile-picture" src="./kamal.html/channel-6.jpg">
+                </div>
+                <div class="vedio-info">
+                    <p class="vedio-title">  
+                        Anything You Can Fit In The Circle I’ll Pay For
+                    </p>
+                    <p class="vedio-author">
+                        MrBeast
+                    </p>
+                    <p class="vedio-status">
+                        141M views · 1 year ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+</body>
+</html>
